@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+oi<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 
@@ -25,12 +25,16 @@ fbq('track', 'ViewContent', {
   value: 195.00,
   currency: 'BRL'
 });
+<script>
+function comprar() {
+  fbq('track', 'InitiateCheckout', {
+    content_name: 'Mini Projetor Portátil',
+    value: 195.00,
+    currency: 'BRL'
+  });
+}
 </script>
-function comprar(){
-fbq('track', 'InitiateCheckout');
- {content_name: 'Mini Projetor Portátil',
-  value: 195.00,
-  currency: 'BRL'
+
 });
 
 </script>
